@@ -1,0 +1,315 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Arima Madurai', cursive;
+
+}
+
+/* ------------------- INDEX-------------------------*/
+/*-------------------- HEADER ---------------------- */
+
+.header {
+    width: 100%; 
+    display: flex; 
+    justify-content: center;
+}
+
+.header img {
+    width: 150px;
+    margin: 20px;
+}
+
+
+.navbar {
+    width: 100%;
+    background-color: #f6d6ad;
+    display: flex;
+}
+
+.nav-link {
+    font-size: 20px;
+    font-weight: bold;
+    border-bottom: 2px solid transparent;
+}
+
+.nav-link:hover {
+    border-bottom: 2px solid #fff;
+    transition: all .1s;
+
+}
+
+@media (max-width: 500px) {
+    .header img {
+        width: 100px;
+    }
+    .display-4 {
+        font-size: 2.5rem;
+    }
+}
+
+
+/*--------------------------- ESTILOS MAIN --------------------------*/
+
+.card-index {
+    background-color: #f6d6ad;
+}
+
+.main2 {
+    width: 100%;
+}
+
+.division {
+    height: auto;
+    background-color: #F6D6AD;
+}
+
+.moreinfo {
+    height: 100%;
+    width: 70%;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    margin-top: 100px;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.moreinfo h2 {
+    margin-top: 10px;
+}
+
+/* @media (max-width: 700px){
+    .division{
+        height: 300px;
+    }
+}
+
+@media (max-width: 430px){
+    .division{
+        height: 350px;
+    }
+}
+
+@media (max-width: 470px){
+    .division{
+        height: 380px;
+    }
+} */
+
+
+
+/* ------------------------- SECCION SOBRE MÍ ----------------------------*/
+
+.container_sm{
+    width: 100%;
+    background: rgb(251,246,240);
+    background: linear-gradient(180deg, rgba(251,246,240,1) 29%, rgba(246,214,173,1) 65%);
+}
+
+
+.mainsb {
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    margin: auto;
+    margin-top: 75px;
+    background: rgb(251,246,240);
+    background: linear-gradient(180deg, rgba(251,246,240,1) 29%, rgba(246,214,173,1) 65%);
+}
+
+.foto_personal {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+}
+
+.img_personal {
+    width: 200px;
+}
+
+.sobremi {
+    padding: 50px;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+@media (max-width: 750px) {
+    .mainsb {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin: auto;
+        margin-top: 40px;
+    }
+    .foto_personal {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .img_personal {
+        width: 150px;
+    }
+    .sobremi {
+        padding: 30px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+
+/*------------SECCION   GALERIA-----------*/
+
+
+
+.imagenes {
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+.imagenes img{
+    width: 250px;
+}
+
+.foto {
+    margin: 20px;
+}
+
+.foto:hover {
+    transform: scale(1.2 , 1.2);
+    transition: all 300ms;
+}
+
+
+/* -----------------SECCION    PREGUNTAS FRECUENTES-------------*/
+
+
+.pregfreg {
+    margin-top: 50px;
+}
+
+.question {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #E9ECEF;
+    margin-top: 50px;
+}
+
+.question img {
+    width: 300px;
+}
+
+.card-header{
+    background-color: #E9ECEF;
+}
+
+
+.btn-link {
+    color: black;
+}
+
+.btn-link:hover{
+    color: black;
+}
+
+
+
+/* -----------------SECCTION CONTACTO -----------------*/
+.es-main {
+    width: 100%;
+}
+
+form {
+    width: 700px;
+    margin: auto;
+    background: #E9ECEF;
+    padding: 10px 20px;
+    margin-top: 50px;
+    border-radius: 7px;
+    border: 1px solid black;
+}
+
+form h2 {
+    color: black;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+
+input, textarea {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+}
+
+textarea {
+    min-height: 100px;
+    max-height: 250px;
+}
+
+.button {
+    background-color: burlywood;
+    padding: 10px;
+}
+
+.button:hover {
+    cursor: pointer;
+
+}
+
+@media (max-width: 700px) {
+    form{
+        width: 90%;
+    }
+
+}
+
+@media (max-width: 480px) {
+    form{
+        width: 90%;
+    }
+
+}
+
+
+
+/*------------ footer--------------*/
+
+footer .redes-sociales {
+	background: #f9c0c0;
+    padding: 10px 0;
+    margin-top: 100px;
+}
+
+footer .redes-sociales .contenedor {
+	display: flex;
+	justify-content: center;
+}
+
+footer .copy {
+    display: flex;
+    justify-content: center;
+}
+
+footer .redes-sociales a {
+	color: black;
+	text-align: center;
+	width: 100px;
+	display: block;
+	padding: 15px 0;
+	border-radius: 3px;
+	font-size: 30px;
+	margin: 0px 20px;
+}
+
+
+footer .redes-sociales .facebook:hover {background: #3b5998;}
+footer .redes-sociales .instagram:hover {background: #f56040;}

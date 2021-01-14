@@ -1,0 +1,39 @@
+$color-bkredes: #f9c0c0;
+$color-hoverfb: #3b5998;
+$color-hoverins: #f56040;
+
+
+body {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Arima Madurai', cursive;
+}
+
+footer .redes-sociales {
+	background: $color-bkredes;
+    padding: 10px 0;
+    margin-top: 100px;
+    .contenedor {
+	display: flex;
+	justify-content: center;
+    }
+}
+
+footer .redes-sociales a {
+	color: black;
+	text-align: center;
+	width: 100px;
+	display: block;
+	padding: 15px 0;
+	border-radius: 3px;
+	font-size: 30px;
+	margin: 0px 20px;
+}
+
+footer .copy {
+    display: flex;
+    justify-content: center;
+}
+
+footer .redes-sociales .facebook:hover {background:$color-hoverfb;}
+footer .redes-sociales .instagram:hover {background: $color-hoverins;}

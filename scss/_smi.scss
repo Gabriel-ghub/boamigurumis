@@ -1,0 +1,52 @@
+.container_sm{
+    width: 100%;
+    background: #fbf6f0;
+    background: linear-gradient(180deg, rgb(251, 246, 240) 29%, rgba(246,214,173,1) 65%);
+    .mainsb {
+        display: flex;
+        flex-direction: row;
+        width: 70%;
+        margin: auto;
+        margin-top: 75px;
+        background: #fbf6f0;
+        background: linear-gradient(180deg, rgba(251,246,240,1) 29%, rgba(246,214,173,1) 65%);
+        @media (max-width: 750px) {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            margin: auto;
+            margin-top: 40px;
+        }
+        .foto_personal {
+            width: 30%;
+            display: flex;
+            justify-content: center;
+            @media (max-width: 750px) {
+                width: 100%;
+                display: flex;
+                justify-content: center;
+            }
+            .img_personal {
+                width: 200px;
+                @media (max-width: 750px) {
+                    width: 150px;
+                }
+            }
+        }
+    }
+}
+
+.sobremi {
+    padding: 50px;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    @media (max-width: 750px) {
+        padding: 30px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}

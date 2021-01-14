@@ -1,0 +1,24 @@
+.question {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #E9ECEF;
+    margin-top: 50px;
+    @media (max-width: 550px) {
+        display: none;
+    }
+}
+
+.pregfreg {
+    margin-top: 50px;
+}
+
+.card-header{
+    background-color: #E9ECEF;
+    .btn-link {
+        color: black;
+        &:hover {
+            color: black;
+        }
+    }
+}

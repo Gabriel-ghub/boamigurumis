@@ -1,0 +1,205 @@
+body {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Arima Madurai', cursive; }
+
+footer .redes-sociales {
+  background: #f9c0c0;
+  padding: 10px 0;
+  margin-top: 100px; }
+  footer .redes-sociales .contenedor {
+    display: flex;
+    justify-content: center; }
+
+footer .redes-sociales a {
+  color: black;
+  text-align: center;
+  width: 100px;
+  display: block;
+  padding: 15px 0;
+  border-radius: 3px;
+  font-size: 30px;
+  margin: 0px 20px; }
+
+footer .copy {
+  display: flex;
+  justify-content: center; }
+
+footer .redes-sociales .facebook:hover {
+  background: #3b5998; }
+
+footer .redes-sociales .instagram:hover {
+  background: #f56040; }
+
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: center; }
+  .header .header__logo {
+    width: 150px;
+    margin: 20px; }
+    @media (max-width: 500px) {
+      .header .header__logo {
+        width: 100px; } }
+
+@media (max-width: 500px) {
+  .display-4 {
+    font-size: 2.5rem; } }
+
+.navbar {
+  width: 100%;
+  background-color: #f9c0c0;
+  display: flex;
+  color: black; }
+
+.nav-link {
+  font-size: 20px;
+  font-weight: bold;
+  border-bottom: 2px solid transparent;
+  color: black; }
+  .nav-link:hover {
+    border-bottom: 2px solid #fff;
+    transition: all .1s; }
+
+.navbar-light .navbar-nav .nav-link {
+  color: black; }
+
+.card-index {
+  background-color: #f6d6ad; }
+
+.main2 {
+  width: 100%;
+  height: auto; }
+  .main2 .division {
+    height: 200px;
+    background-color: #f6d6ad;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px; }
+    .main2 .division .moreinfo {
+      height: auto;
+      width: 70%;
+      display: flex;
+      margin: auto;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center; }
+
+.galeria__imagenes {
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  flex-direction: row; }
+  .galeria__imagenes .galeria__foto {
+    margin: 20px; }
+    .galeria__imagenes .galeria__foto img {
+      width: 250px; }
+      .galeria__imagenes .galeria__foto img:hover {
+        transform: scale(1.2, 1.2);
+        transition: all 300ms; }
+
+.es-main, input, textarea {
+  width: 100%; }
+  .es-main form, input form, textarea form {
+    width: 700px;
+    margin: auto;
+    background: #E9ECEF;
+    padding: 10px 20px;
+    margin-top: 50px;
+    border-radius: 7px;
+    border: 1px solid black; }
+    @media (max-width: 700px) {
+      .es-main form, input form, textarea form {
+        width: 90%; } }
+    @media (max-width: 480px) {
+      .es-main form, input form, textarea form {
+        width: 90%; } }
+    .es-main form h2, input form h2, textarea form h2 {
+      color: black;
+      text-align: center;
+      margin: 0;
+      margin-bottom: 10px;
+      font-size: 30px; }
+
+input, textarea {
+  margin-bottom: 20px;
+  padding: 7px; }
+
+textarea {
+  min-height: 100px;
+  max-height: 250px; }
+
+.button {
+  background-color: #DEB887;
+  padding: 10px; }
+  .button:hover {
+    cursor: pointer; }
+
+.question {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: #E9ECEF;
+  margin-top: 50px; }
+  @media (max-width: 550px) {
+    .question {
+      display: none; } }
+
+.pregfreg {
+  margin-top: 50px; }
+
+.card-header {
+  background-color: #E9ECEF; }
+  .card-header .btn-link {
+    color: black; }
+    .card-header .btn-link:hover {
+      color: black; }
+
+.container_sm {
+  width: 100%;
+  background: #fbf6f0;
+  background: linear-gradient(180deg, #fbf6f0 29%, #f6d6ad 65%); }
+  .container_sm .mainsb {
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    margin: auto;
+    margin-top: 75px;
+    background: #fbf6f0;
+    background: linear-gradient(180deg, #fbf6f0 29%, #f6d6ad 65%); }
+    @media (max-width: 750px) {
+      .container_sm .mainsb {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin: auto;
+        margin-top: 40px; } }
+    .container_sm .mainsb .foto_personal {
+      width: 30%;
+      display: flex;
+      justify-content: center; }
+      @media (max-width: 750px) {
+        .container_sm .mainsb .foto_personal {
+          width: 100%;
+          display: flex;
+          justify-content: center; } }
+      .container_sm .mainsb .foto_personal .img_personal {
+        width: 200px; }
+        @media (max-width: 750px) {
+          .container_sm .mainsb .foto_personal .img_personal {
+            width: 150px; } }
+
+.sobremi {
+  padding: 50px;
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column; }
+  @media (max-width: 750px) {
+    .sobremi {
+      padding: 30px;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center; } }

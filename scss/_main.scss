@@ -1,0 +1,70 @@
+$color-chicle: #f9c0c0;
+$color-cremita: #f6d6ad;
+
+.header {
+    width: 100%; 
+    display: flex; 
+    justify-content: center;
+    .header__logo{
+        width: 150px;
+        margin: 20px;
+            @media (max-width: 500px){
+                width: 100px;
+            }
+        };
+
+}
+
+.display-4 {
+    @media (max-width: 500px){
+        font-size: 2.5rem;
+    }
+}
+
+.navbar {
+    width: 100%;
+    background-color: $color-chicle;
+    display: flex;
+    color: black;
+}
+
+.nav-link {
+    font-size: 20px;
+    font-weight: bold;
+    border-bottom: 2px solid transparent;
+    color: black;
+    &:hover{
+        border-bottom: 2px solid #fff;
+        transition: all .1s;
+    }
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: black;
+}
+
+.card-index {
+    background-color: $color-cremita;
+}
+
+.main2 {
+    width: 100%;
+    height: auto;
+    .division {
+        height: 200px;
+        background-color: $color-cremita;
+        display: flex;
+        justify-content: center;
+        margin-top: 100px;
+        .moreinfo {
+            height: auto;
+            width: 70%;
+            display: flex;
+            margin: auto;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            
+        }
+    }
+}
