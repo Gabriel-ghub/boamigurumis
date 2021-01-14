@@ -71,7 +71,7 @@ footer .redes-sociales .instagram:hover {
   width: 100%;
   height: auto; }
   .main2 .division {
-    height: 200px;
+    height: auto;
     background-color: #f6d6ad;
     display: flex;
     justify-content: center;
